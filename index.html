@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extra Delight Wiki</title>
+    <link rel="icon" type="image/x-icon" href="extradelightlogo.png">
+    <style>
+        /* {border-color:red;
+        border-width:1px;
+        border-style:solid;} */
+        @font-face {
+            font-family:Minecraft;
+            src: url(fonts/Minecraft-Regular.ttf);
+        }
+        @font-face {
+            font-family:Minecraft;
+            src: url(fonts/Minecraft-Regular.ttf);
+            font-weight:bold;
+        }
+        body {
+            background-image:url(modImages/house.jpg);
+            background-size:100%;
+            background-attachment: fixed;
+            font-family:'Minecraft', Courier, monospace;
+        }
+        h1 {
+            float:left;
+            padding:1%;
+            font-family:'Minecraft', monospace;
+        }
+        blockquote {
+            font-style: italic;
+            font-size:larger;
+        }
+        a {
+            color:chartreuse;
+            text-decoration:none;
+        }
+        a:hover {
+            text-decoration:underline;
+            color:gold;
+        }
+        p, ul {
+            font-size: small;
+        }
+        header {
+            display:flex;
+            width:100%;
+            gap:220px;
+            align-items: center;
+        }
+        b {
+            font-size:medium;
+            color:gold;
+        }
+
+
+        .right {
+            float:right;
+        }
+        .left {
+            float:left;
+        }
+        .infobox {
+            float:left;
+            width:22%;
+            height:220px;
+            margin:3px;
+            background-color: black;
+            color:white;
+            border-radius: 15px;
+            padding:10px;
+            margin-bottom: 40px;
+            border-color: gray;
+            border-width: 3px;
+            border-style:double;
+        }
+        .infobox:hover {
+            background-color:greenyellow;
+            color:black;
+            box-shadow: 0px 0px 10px 2px rgba(247, 211, 78, 0.681);
+            border-width:0px;
+        }
+
+
+        #outercontainer {
+            color:white;
+            width:1080px;
+            margin:auto;
+            background-color:rgba(0, 0, 0, 0.65);
+            padding:3%;
+            border-radius:30px;
+        }
+        #moreText {
+            display:flex;
+            width:100%;
+        }
+        #images {
+            margin:auto;
+            width:930px;
+            height:175px;
+            display:flex;
+            justify-content: center;
+            align-content:center;
+            gap:10px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="outercontainer">
+        <header>
+        <h1>Welcome to the Extra Delight wiki!</h1>
+        <img class="right" src="extradelightlogo.png", width="150">
+        </header>
+        <hr>
+            <blockquote>"Extra Delight is a mod that vigorously expands upon farming and cooking in Farmer's Delight." - Blurb from the mod page</blockquote>
+
+            <p>Hello there! Thanks for visiting the Extra Delight wiki!</p> 
+            <p>Assuming that you are already familiar with the basics of parent mod Farmer's Delight, this site only covers mechanics unique to Extra Delight. It will also assume that you are using the Extra Delight recipe, not the Farmer's Delight one if it has both. Some ingredients, and therefore recipes, are available only with the <a href=https://www.curseforge.com/minecraft/mc-mods/butchercraft>Butchercraft</a> mod. This will be noted on the relevant recipes.</p>
+            <br>
+            <div id="images">
+                <img src="modImages/image1.png" width="290px">
+                <img src="modImages/image2.png" width="290px">
+                <img src="modImages/image3.png" width="290px">
+            </div>
+            <br>
+            <div class="infobox">
+                <img src="headers/workstations.png" width=100%>
+                <p>Extra Delight adds a ton of new workstations and tools to the game to make new foods.</p>
+            </div>
+            <div class="infobox">
+                <img src="headers/crops.png" width=100%>
+                <p>10+ crops have been added with Extra Delight to make a variety of new dishes.</p>
+            </div>
+            <div class="infobox">
+                <img src="headers/meals.png" width=100%>
+                <p>Obviously, Extra Delight also adds many, many meals, feasts, and snacks to the game. In fact, there are over 350!</p>
+            </div>
+            <div class="infobox">
+                <img src="headers/aesthetics.png" width=100%>
+                <p>Not only does Extra Delight add food, but also several kitchen-related furniture items.</p>
+            </div>
+            <br>
+            <div id="moreText">
+                <h1>Mod FAQ</h1>
+            </div>
+            <p>
+                <ul>
+                <li><b>Can I use this in my modpack?</b> Of course! Just follow the rules of the license, don't rehost the .jar, and don't claim the mod as your own. Also no pay to play/cash shop modpacks or servers!</li> 
+                <li><b>Can you support an older version/backport features *cough 1.20.1*?</b> No, never ask a modder that. I accept Pull Requests on GitHub though...</li>
+                <li><b>Fabric?</b> Sorry, no. I am not going to do it and, having seen how vectorwing gets mistakenly harassed about the port of Farmer's Delight someone else has done, I am not interested in going down that route either.</li>
+                <li><b>How do I make Yeast?</b> Have you tried searching for the term “Yeast” in <a href="https://www.curseforge.com/minecraft/mc-mods/jei">JEI</a> and looking at all the results? Or looking at the Advancements…?</li>
+                <li><b>What’s with all these meaty/bloody recipes I can’t make?</b> They require one of ED’s sister mods - Butchercraft!. Or any other meat mod that uses the same tags.</li>
+                <li><b>Why can't I make (insert recipe name here)?</b> Have you checked all the ingredients? If you are using Extra Delight in a modpack it is entirely possible you are using something like butter or flour from a different mod. And while Extra Delight uses tags in its recipes wherever possible… not all mods add their ingredients to the appropriate tags. If you are using something like JEI it should show you which versions of ingredients are able to be used. Otherwise try making the recipe with 100% Extra Delight ingredients, and if you’re still having trouble hop into the Discord and we’ll do our best to get you sorted!</li>
+                <li><b>Why can’t I remove items from the Drying Rack or Mortar while holding a shield?</b> This is just a vanilla thing with shift + right-click unfortunately. You’ll notice if you have a shield on you can’t open a door while crouching either.</li>
+                <li><b>Why can’t I make Liquid Blood Chocolate? (Don’t have Butchercraft)</b> Unfortunately the fluid ingredients are not as obvious when they aren’t available. If you mouse over the recipe you should see a fluid above the Cocoa Butter. This is where Blood would be if you had Butchercraft installed.</li>
+                <li><b>Why can't I find the recipe for curry powder?</b> At the moment, curry powder is chest loot only and there is no existing recipe. However, it is likely planned for a future update.</li>
+                </ul>
+                </p>
+            <br>
+            <hr>
+            <a href="https://www.curseforge.com/minecraft/mc-mods/extradelight">Curseforge</a> | 
+            <a href="https://modrinth.com/mod/extradelight">Modrinth</a> |
+            <a href="https://github.com/Lance5057/ExtraDelight/issues">Bug Reports</a> |
+            <a href="https://discord.gg/SuUuXchG8x" style="color:cornflowerblue">Discord</a> | 
+            <a href="https://www.patreon.com/c/SirLance" style="color:indianred">Patreon</a>
+    </div>
+</body>
+</html>
