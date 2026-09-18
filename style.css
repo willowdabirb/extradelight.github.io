@@ -1,0 +1,135 @@
+/* {border-color:red;
+border-width:1px;
+border-style:solid;} */
+@font-face {
+    font-family:Minecraft;
+    src: url(fonts/Minecraft-Regular.ttf);
+}
+@font-face {
+    font-family:Minecraft;
+    src: url(fonts/Minecraft-Bold.ttf);
+    font-weight:bold;
+}
+body {
+    background-image:url(modImages/house.png);
+    background-size:100%;
+    background-attachment: fixed;
+    font-family:'Minecraft', Courier, monospace;
+}
+h1 {
+    float:left;
+    padding:1%;
+    font-family:'Minecraft', monospace;
+}
+blockquote {
+    font-style: italic;
+    font-size:larger;
+}
+a {
+    color:chartreuse;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+    color:gold;
+}
+p, ul {
+    font-size: small;
+}
+header {
+    display:flex;
+    width:100%;
+    gap:100px;
+    justify-content: space-between;
+}
+b {
+    color:gold;
+}
+table {
+    width:100%;
+    margin:15px;
+}
+td {
+    padding:5px;
+}
+dt {
+    font-size:medium;
+    font-weight:bold;
+    color:gold;
+    line-height:2;
+}
+dt:hover {
+    color:chartreuse;
+    cursor:pointer;
+}
+dl {
+    padding:10px;
+}
+
+
+.right {
+    float:right;
+}
+.left {
+    float:left;
+}
+.infobox {
+    float:left;
+    flex-basis:22%;
+    flex-grow:1;
+    height:220px;
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    padding:10px;
+    border-color: gray;
+    border-width: 3px;
+    border-style:double;
+}
+.infobox:hover {
+    background-color:greenyellow;
+    color:black;
+    box-shadow: 0px 0px 10px 2px rgba(247, 211, 78, 0.681);
+    border-width:3px;
+    border-style:solid;
+    border-color:chartreuse;
+    text-decoration:none;
+}
+.moreText {
+    display:flex;
+    width:100%;
+    flex-wrap:wrap;
+}
+.select {
+    opacity:1;
+    border-style:solid;
+    border-color:chartreuse;
+    border-width:2px;
+}
+
+
+#outercontainer {
+    color:white;
+    width:1000px;
+    margin:auto;
+    background-color:rgba(0, 0, 0, 0.65);
+    padding:4%;
+    border-radius:30px;
+}
+#images {
+    display:flex;
+    justify-content: center;
+    align-content:center;
+    flex-wrap:wrap;
+    width:90%;
+    height:600px;
+    gap:10px;
+    background-color:rgba(0, 0, 0, 0.605);
+    padding:2%;
+    margin:auto;
+}
+#boxes {
+    display:flex;
+    gap:5px;
+    flex-wrap:wrap;
+}
