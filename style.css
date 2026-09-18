@@ -13,7 +13,6 @@ border-style:solid;} */
 body {
     background-image:url(modImages/house.png);
     background-size:100%;
-    background-repeat:no-repeat;
     background-attachment: fixed;
     font-family:'Minecraft', Courier, monospace;
 }
