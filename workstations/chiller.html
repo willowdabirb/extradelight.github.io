@@ -12,7 +12,7 @@
             </header>
             <hr>
             <div class="noWrap">
-                <div>
+                <div class="textcolumn">
                     <p>The Chiller chills a range of icy treats - solidifying chocolate, jelly, ice cream, etc.! It takes in a fluid, up to 4 ingredients, a container, and something to chill everything down. If you have all the correct ingredients but nothing is happening... you might need to empty the drip-tray!
                     </p>
                     <hr class="pageline">
@@ -31,7 +31,8 @@
                     <p>2.1</p>
                     <hr class="pageline">
                     <h2>Used to make</h2>
-                    <ul>
+                    <p class="dropdown">(click to expand)</p>
+                    <ul class="dropdownList">
                         <li>Apple Popsicle</li>
                         <li>Caramel Pop</li>
                         <li>Chocolate Bars</li>
@@ -71,7 +72,7 @@
                     </figure>
                     <figure>
                         <img class="pagethumb" src="../modImages/workstations/chiller/chiller.gif" width="80%">
-                        <figcaption>The chiller in action.</figcaption>
+                        <figcaption>The chiller in actions.</figcaption>
                     </figure>
                 </div>
             </div>
@@ -83,5 +84,14 @@
             <a href="https://discord.gg/SuUuXchG8x" style="color:cornflowerblue" target="_blank">Discord</a> | 
             <a href="https://www.patreon.com/c/SirLance" style="color:indianred" target="_blank">Patreon</a>
         </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".dropdownList").hide();
+        })
+        $(".dropdown").on("click",function(){
+            $(this).next().slideToggle(200);
+        })
+    </script>
     </body>
 </html>
